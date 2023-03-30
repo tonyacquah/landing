@@ -1,0 +1,72 @@
+.topHeader, .hero{
+    display:flex;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.topHeader {
+    height:80px;
+}
+
+.hero{
+    height: 400px;
+    
+    
+}
+
+.heroImage{
+    height: 340px;
+    border-radius: 5px;
+}
+
+.headerItem {
+  
+    height: 80px;
+    /*border: 1px solid;*/
+    /*justify-content: center;*/
+    flex:1;
+}
+
+.logo{
+    height:80px;
+}
+
+.navigation {
+    display:flex;
+    margin: 20px;
+    justify-content:flex-end;
+    gap: 40px;
+}
+
+
+
+.headerText, .banner, .headerTextItem, .navigationItem, .fameItem{
+    flex:1;
+    
+}
+
+.headerText{
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    padding-right: 0px;
+    padding-top: 50px;
+
+}
+
+.dogPhotos {
+    border-radius: 5px;
+    width: 200px;
+}
+
+.hallOfFame{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+.fameTitle {
+    text-align: center;
+   
+}
