@@ -4,6 +4,8 @@
 * {
     font-family:'Roboto', sans-serif;    
     margin: 0px;
+    /*text-align: center;*/
+
     
     
 }
@@ -11,10 +13,14 @@
 
 .topHeader, .hero{
     display:flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     color: white;
-    padding-left: 200px;
-    padding-right: 200px;
+    /*width: 80%;*/
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 3vw;
 }
 
 .topHeader {
@@ -22,22 +28,20 @@
 }
 
 .hero{
-    height: 400px;
+  padding-bottom: 5vw;
     
     
 }
 
 .heroImage{
-    height: 340px;
+   
+    max-width: 440px;
     border-radius: 5px;
 }
 
-.headerItem {
+.banner {
   
-    height: 80px;
-    /*border: 1px solid;*/
-    /*justify-content: center;*/
-    flex:1;
+padding:10px;
 }
 
 .logo{
@@ -45,15 +49,15 @@
 }
 
 .navigation {
-    display:flex;
-    margin: 20px;
+    display:flex; 
     justify-content:flex-end;
-    gap: 40px;
+    align-items: center;
+ 
 }
 
 
 
-.headerText, .banner, .headerTextItem, .navigationItem, .fameItem, .signUpFooter{
+.headerText,.headerItem, .banner, .headerTextItem, .navigationItem, .fameItem, .signUpFooter{
     flex:1;
     
 }
@@ -61,11 +65,15 @@
 .headerText{
     display:flex;
     flex-direction: column;
-    height: auto;
-    padding-right: 0px;
     padding-top: 50px;
+    gap: 5px;
+  }
 
-}
+  .woof{
+    margin-bottom: 10px;
+
+  }
+
 
 .dogPhotos {
     border-radius: 5px;
@@ -74,11 +82,14 @@
 
 .hallOfFame{
     display:flex;
-    justify-content:center;
-    align-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    flex-wrap: wrap;
+    /*justify-content:center;
+    align-content:center;*/
     padding-bottom: 50px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 5px;
+    justify-content: space-between;
 }
 .fameTitle {
     text-align: center;
@@ -86,10 +97,7 @@
 }
 
 .quote {
-    padding-left: 200px;
-    padding-right: 340px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding:10vw;
     background-color: #e5e7eb;
 }
 .quote > p{
@@ -113,8 +121,9 @@
 
 .footer {
     display:flex;
-   margin-left: 200px;
-   margin-right: 320px;
+    flex-wrap: wrap;
+   margin-left: 10vw;
+   margin-right: 10vw;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
