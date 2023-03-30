@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family:'Roboto', sans-serif;    
+    margin: 0px;
+    
+    
+}
+
+
 .topHeader, .hero{
     display:flex;
     background-color: #1F2937;
@@ -42,7 +53,7 @@
 
 
 
-.headerText, .banner, .headerTextItem, .navigationItem, .fameItem{
+.headerText, .banner, .headerTextItem, .navigationItem, .fameItem, .signUpFooter{
     flex:1;
     
 }
@@ -65,8 +76,69 @@
     display:flex;
     justify-content:center;
     align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
 }
 .fameTitle {
     text-align: center;
-   
+    padding: 25px;
+}
+
+.quote {
+    padding-left: 200px;
+    padding-right: 340px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e5e7eb;
+}
+.quote > p{
+    font-size: xx-large;
+    font-style:italic;
+    font-weight:100;
+    text-align: justify;
+}
+.quote > .author{
+    font-size:medium;
+    font-weight: bold;
+    text-align: right;
+}
+
+.footerContainer{
+    height: 350px;
+    margin-top: 50px;
+    ftext-align: center;
+    color: white;
+}
+
+.footer {
+    display:flex;
+   margin-left: 200px;
+   margin-right: 320px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 30px;
+}
+.callToAction{
+    flex:3;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+.signUpFooter{
+    justify-content: center;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 15px 32px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 4px;
+    box-shadow: none;
+
 }
