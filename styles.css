@@ -2,7 +2,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     margin: 0px;
+    font-size: 18px;
     /*text-align: center;*/
 }
 
@@ -13,7 +15,6 @@
     flex-wrap: wrap;
     background-color: #1F2937;
     color: white;
-    /*width: 80%;*/
     justify-content: center;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -29,7 +30,7 @@
 }
 
 .heroImage {
-    max-width: 480px;
+    max-width: 560px;
     border-radius: 5px;
 }
 
@@ -43,7 +44,6 @@
 
 .navigation {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 
 }
@@ -76,24 +76,24 @@
 
 .dogPhotos {
     border-radius: 5px;
-    width: 200px;
+    width: 250px;
 }
 
 .hallOfFame {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content:center;
-    align-content:center;*/
     padding-bottom: 50px;
     padding-left: 10vw;
     padding-right: 10vw;
     gap: 5px;
-    justify-content: space-between;
+ 
 }
 
-.fameTitle {
+.fameTitle>h2 {
     text-align: center;
     padding: 25px;
+   
+    font-size: 22px;
 }
 
 .quote {
@@ -101,7 +101,7 @@
     background-color: #e5e7eb;
 }
 
-.quote>p {
+q {
     font-size: xx-large;
     font-style: italic;
     font-weight: 100;
@@ -117,7 +117,6 @@
 .footerContainer {
     height: 350px;
     margin-top: 50px;
-    ftext-align: center;
     color: white;
 }
 
@@ -126,8 +125,6 @@
     flex-wrap: wrap;
     margin-left: 10vw;
     margin-right: 10vw;
-    justify-content: center;
-    align-items: center;
     background-color: #3882f6;
     padding: 30px;
 }
@@ -139,7 +136,8 @@
 }
 
 .signUpFooter {
-    justify-content: center;
+    justify-content: flex-end;
+   padding: 30px;
 }
 
 button {
