@@ -48,7 +48,9 @@
 
 .navigation {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+
+ 
     max-width: 400px;
 }
 
@@ -59,15 +61,15 @@
 .headerItem,
 .banner,
 .navigationItem,
-.fameItem,
+/*.fameItem,*/
 .signUpFooter {
     flex: 1;
+
 }
 
-/*
-.navigationItem{
-    flex: 0 0 auto;
-}*/
+.fameItem{
+    flex: 1 1 auto
+}
 
 .headerText{
     padding: 25px
@@ -93,6 +95,7 @@
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: white;
+    gap: 20px;
 
 
 }
