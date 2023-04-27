@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
 * {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
     margin: auto;
     font-size: 18px;
-    /*text-align: center;*/
+
 }
 
 
@@ -22,7 +20,7 @@
     position: sticky;
     top: 0px;
     background-color: #1F2937;
-    /*border-bottom:#213452 2px solid;*/
+    border-bottom:#213452 2px solid;
 }
 
 .heroImage {
@@ -36,9 +34,11 @@
 }
 
 .hero{
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px;*/
+    margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -49,8 +49,6 @@
 .navigation {
     display: flex;
     flex-wrap: wrap;
-
- 
     max-width: 400px;
 }
 
@@ -130,13 +128,16 @@ q {
     color: white;
     max-width: 1500px;
     margin: auto;
+
 }
 
 .footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #3882f6;
-    padding: 30px;
+    height: 200px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .callToAction {
@@ -148,6 +149,7 @@ q {
 .signUpFooter {
     justify-content: flex-end;
     padding: 30px;
+    text-align: right;
 }
 
 button {
