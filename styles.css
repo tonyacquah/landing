@@ -67,6 +67,7 @@
 
 .fameItem{
     flex: 0 1 auto;
+    font-size: 16px;
 }
 
 .headerText{
@@ -94,6 +95,7 @@
     padding-right: 10vw;
     background-color: white;
     gap: 20px;
+   
 
 
 }
