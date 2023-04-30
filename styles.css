@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap');
+
 * {
     font-family: 'Raleway', sans-serif;
     margin: auto;
     font-size: 18px;
+}
 
+@media only screen and (max-width:540px) {
+    .headerText {
+        text-align: left;
+    }
+
+    .mediaCenter {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
 }
 
 
@@ -13,14 +30,13 @@
     flex-wrap: wrap;
     color: white;
     max-width: 1500px;
-    gap: 40px;
 }
 
-.topHeader{
+.topHeader {
     position: sticky;
     top: 0px;
     background-color: #1F2937;
-    border-bottom:#213452 2px solid;
+    border-bottom: #213452 2px solid;
 }
 
 .heroImage {
@@ -30,16 +46,12 @@
 
 .banner {
     margin: auto;
-    max-width: 450px; 
+    max-width: 450px;
 }
 
-.hero{
-    /*padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;*/
+.hero {
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 .logo {
@@ -50,7 +62,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
-    flex: 0 1 auto;
+    justify-content: space-around;
 }
 
 
@@ -66,19 +78,18 @@
 
 }
 
-.fameItem{
+.fameItem {
     flex: 0 1 auto;
     font-size: 16px;
 }
 
-.headerText{
+.headerText {
     padding: 25px
 }
 
 .woof {
     font-size: 25px;
     font-weight: 700;
-    text-align: left;
     padding-bottom: 15px;
 }
 
@@ -92,18 +103,15 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 50px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
     background-color: white;
-    gap: 20px;
-   
-
-
+    gap: 25px;
 }
 
 .fameTitle>h2 {
     text-align: center;
-    padding: 25px;
+    padding: 30px;
     font-size: 22px;
     background-color: white;
 }
@@ -118,42 +126,33 @@ q {
     font-style: italic;
     font-weight: 100;
     text-align: justify;
+
 }
 
 .quote>.author {
     font-size: medium;
     font-weight: bold;
     text-align: right;
+    padding-right: 5vmin;
 }
 
-.footerContainer {
-    min-height: 350px;
+footer {
+    min-height: 200px;
     color: white;
-    max-width: 1500px;
-    margin: auto;
-
-}
-
-.footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #3882f6;
-    height: 200px;
-    padding-left: 10vmin;
-    padding-right: 10vmin;
-    
 }
 
 .callToAction {
     flex: 3;
-    padding: 30px;
     justify-content: flex-start;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
 }
 
-.signUpFooter {
-    justify-content: flex-end;
-    padding: 30px;
-    text-align: right;
+.signUpFooterButtonContainer {
+    flex: 1;
 }
 
 button {
@@ -168,7 +167,6 @@ button {
     box-shadow: none;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 a {
@@ -177,10 +175,11 @@ a {
 
 }
 
-main {
+main,
+footer {
     max-width: 1500px;
     margin: auto;
-    border-color: grey;
+
 }
 
 body {
