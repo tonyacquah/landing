@@ -50,6 +50,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
+    flex: 0 1 auto;
 }
 
 
@@ -108,7 +109,7 @@
 }
 
 .quote {
-    padding: 10vw;
+    padding: 10vmin;
     background-color: #e5e7eb;
 }
 
@@ -126,7 +127,7 @@ q {
 }
 
 .footerContainer {
-    height: 350px;
+    min-height: 350px;
     color: white;
     max-width: 1500px;
     margin: auto;
@@ -138,8 +139,9 @@ q {
     flex-wrap: wrap;
     background-color: #3882f6;
     height: 200px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+    
 }
 
 .callToAction {
