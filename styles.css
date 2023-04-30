@@ -37,6 +37,8 @@
     top: 0px;
     background-color: #1F2937;
     border-bottom: #213452 2px solid;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .heroImage {
